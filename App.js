@@ -1,21 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {useState} from 'react';
+import Home from './components/Home';
+import Onboard from './components/Onboard';
 
-export default function App() {
+const App = () => {
+  const [showOnboard, setShowOnboard] = useState(true);
+
+  const handleOnboardFinish = () => {
+    setShowOnboard(false);
+  };
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      {showOnboard && <Onboard handleDone={handleOnboardFinish} />}
+      {!showOnboard && <Home />} 
+    </>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
