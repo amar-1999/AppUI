@@ -29,13 +29,13 @@ const Home = () => {
       
       <View style={styles.scanContainer}>
       <TouchableOpacity>
-        <Image source={require('../assets/images/ScanOCR.png')} />
+        <Image source={require('../assets/images/ScanSingle.png')} />
       </TouchableOpacity>
       <TouchableOpacity>
         <Image source={require('../assets/images/ScanBatch.png')} />
       </TouchableOpacity>
       <TouchableOpacity>
-        <Image source={require('../assets/images/ScanSingle.png')} /> 
+        <Image source={require('../assets/images/ScanOCR.png')} />
       </TouchableOpacity>
       </View>
       <View style={styles.scanTextContainer}>
