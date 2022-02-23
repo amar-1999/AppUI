@@ -3,6 +3,9 @@
 ## Description
  
  This is an UI Application built with ReactNative with Figma Design.
+ 
+## Figma Design
+` https://www.figma.com/file/qqXtkkyXKkDWpW1EySxVAr/ReactNative-Test?node-id=0%3A1`
 
 ## Initialization
 
