@@ -7,6 +7,10 @@
 ## Figma - Screenshots
 
 ![](assets/images/Onboard1.png)
+![](assets/images/Onboard2.png)
+![](assets/images/Onboard3.png)
+![](assets/images/Onboard4.png)
+![](assets/images/Home.png)
   
 ## Initialization
 
