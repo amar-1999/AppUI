@@ -6,7 +6,7 @@
   
 ## Figma - Screenshots
 
-
+![](assets/Onboard1.png)
   
 ## Initialization
 
