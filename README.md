@@ -3,10 +3,11 @@
 ## Description
  
  This is an UI Application built with ReactNative with Figma Design.
- 
-## Figma Design
-` https://www.figma.com/file/qqXtkkyXKkDWpW1EySxVAr/ReactNative-Test?node-id=0%3A1`
+  
+## Figma - Screenshots
 
+
+  
 ## Initialization
 
 Assuming that you have Node 12 LTS or greater installed, you can use npm to install the Expo CLI command line utility:
